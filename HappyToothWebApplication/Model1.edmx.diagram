@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1d3479c46b8649118935495e5b77a436" Name="Diagram1">
+        <EntityTypeShape EntityType="HappyToothModel.appointments" Width="1.5" PointX="5.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HappyToothModel.doctor_schedule" Width="1.5" PointX="5.25" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HappyToothModel.doctors" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HappyToothModel.patients" Width="1.5" PointX="3" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HappyToothModel.services" Width="1.5" PointX="7.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HappyToothModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HappyToothModel.users" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HappyToothModel.visit_services" Width="1.5" PointX="9.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HappyToothModel.visits" Width="1.5" PointX="7.5" PointY="3.5" IsExpanded="true" />
+        <AssociationConnector Association="HappyToothModel.FK__appointme__docto__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="HappyToothModel.FK__appointme__patie__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="HappyToothModel.FK__visits__appointm__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="HappyToothModel.FK__doctor_sc__docto__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="HappyToothModel.FK_doctors_users" ManuallyRouted="false" />
+        <AssociationConnector Association="HappyToothModel.FK_patients_users" ManuallyRouted="false" />
+        <AssociationConnector Association="HappyToothModel.FK__visit_ser__servi__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="HappyToothModel.FK__visit_ser__visit__37A5467C" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
