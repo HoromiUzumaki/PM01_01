@@ -1,0 +1,13 @@
+C:\Users\Хороми\source\repos\HappyToothDLL\HappyToothDLL\bin\Debug\HappyToothDLL.dll.config
+C:\Users\Хороми\source\repos\HappyToothDLL\HappyToothDLL\bin\Debug\HappyToothDLL.dll
+C:\Users\Хороми\source\repos\HappyToothDLL\HappyToothDLL\bin\Debug\HappyToothDLL.pdb
+C:\Users\Хороми\source\repos\HappyToothDLL\HappyToothDLL\bin\Debug\EntityFramework.dll
+C:\Users\Хороми\source\repos\HappyToothDLL\HappyToothDLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Хороми\source\repos\HappyToothDLL\HappyToothDLL\bin\Debug\EntityFramework.xml
+C:\Users\Хороми\source\repos\HappyToothDLL\HappyToothDLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Хороми\source\repos\HappyToothDLL\HappyToothDLL\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Хороми\source\repos\HappyToothDLL\HappyToothDLL\obj\Debug\HappyToothDLL.csproj.AssemblyReference.cache
+C:\Users\Хороми\source\repos\HappyToothDLL\HappyToothDLL\obj\Debug\HappyToothDLL.csproj.CoreCompileInputs.cache
+C:\Users\Хороми\source\repos\HappyToothDLL\HappyToothDLL\obj\Debug\HappyToo.62A8AC5E.Up2Date
+C:\Users\Хороми\source\repos\HappyToothDLL\HappyToothDLL\obj\Debug\HappyToothDLL.dll
+C:\Users\Хороми\source\repos\HappyToothDLL\HappyToothDLL\obj\Debug\HappyToothDLL.pdb

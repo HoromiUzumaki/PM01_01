@@ -1,0 +1,16 @@
+C:\Users\Хороми\source\repos\HappyToothDLL\HappyToothDLL_Test\bin\Debug\HappyToothDLL_Test.exe.config
+C:\Users\Хороми\source\repos\HappyToothDLL\HappyToothDLL_Test\bin\Debug\HappyToothDLL_Test.exe
+C:\Users\Хороми\source\repos\HappyToothDLL\HappyToothDLL_Test\bin\Debug\HappyToothDLL_Test.pdb
+C:\Users\Хороми\source\repos\HappyToothDLL\HappyToothDLL_Test\bin\Debug\HappyToothDLL.dll
+C:\Users\Хороми\source\repos\HappyToothDLL\HappyToothDLL_Test\bin\Debug\EntityFramework.dll
+C:\Users\Хороми\source\repos\HappyToothDLL\HappyToothDLL_Test\bin\Debug\HappyToothDLL.pdb
+C:\Users\Хороми\source\repos\HappyToothDLL\HappyToothDLL_Test\bin\Debug\HappyToothDLL.dll.config
+C:\Users\Хороми\source\repos\HappyToothDLL\HappyToothDLL_Test\bin\Debug\EntityFramework.xml
+C:\Users\Хороми\source\repos\HappyToothDLL\HappyToothDLL_Test\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Хороми\source\repos\HappyToothDLL\HappyToothDLL_Test\obj\Debug\HappyToothDLL_Test.csproj.AssemblyReference.cache
+C:\Users\Хороми\source\repos\HappyToothDLL\HappyToothDLL_Test\obj\Debug\HappyToothDLL_Test.csproj.CoreCompileInputs.cache
+C:\Users\Хороми\source\repos\HappyToothDLL\HappyToothDLL_Test\obj\Debug\HappyToo.76BB2DC2.Up2Date
+C:\Users\Хороми\source\repos\HappyToothDLL\HappyToothDLL_Test\obj\Debug\HappyToothDLL_Test.exe
+C:\Users\Хороми\source\repos\HappyToothDLL\HappyToothDLL_Test\obj\Debug\HappyToothDLL_Test.pdb
+C:\Users\Хороми\source\repos\HappyToothDLL\HappyToothDLL_Test\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Хороми\source\repos\HappyToothDLL\HappyToothDLL_Test\bin\Debug\EntityFramework.SqlServer.xml
