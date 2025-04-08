@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Happy_tooth_Mobile.HistoryPage" Title="История посещений">
+    <RefreshView x:Name="refreshView" Command="{Binding LoadVisitsCommand}">
+        <CollectionView x:Name="visitsCollection" SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Padding="10" Spacing="5">
+                        <Label Text="{Binding Appointment.AppointmentTime, StringFormat='{0:dd.MM.yyyy HH:mm}'}" 
+                               FontAttributes="Bold" />
+                        <Label Text="{Binding Appointment.Doctor.FullName}" />
+                        <Label Text="{Binding Diagnosis}" />
+                        <Label Text="{Binding TotalPrice, StringFormat='Сумма: {0:C}'}" />
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </RefreshView>
+</ContentPage>

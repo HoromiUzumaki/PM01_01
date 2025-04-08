@@ -1,0 +1,288 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|c:\\users\\\u0445\u043E\u0440\u043E\u043C\u0438\\desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\happy_tooth_mobile\\happy_tooth_mobile\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|solutionrelative:happy_tooth_mobile\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|c:\\users\\\u0445\u043E\u0440\u043E\u043C\u0438\\desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\happy_tooth_mobile\\happy_tooth_mobile\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|solutionrelative:happy_tooth_mobile\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|c:\\users\\\u0445\u043E\u0440\u043E\u043C\u0438\\desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\happy_tooth_mobile\\happy_tooth_mobile\\tabbedpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|solutionrelative:happy_tooth_mobile\\tabbedpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|c:\\users\\\u0445\u043E\u0440\u043E\u043C\u0438\\desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\happy_tooth_mobile\\happy_tooth_mobile\\tabbedpage1.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|solutionrelative:happy_tooth_mobile\\tabbedpage1.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|c:\\users\\\u0445\u043E\u0440\u043E\u043C\u0438\\desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\happy_tooth_mobile\\happy_tooth_mobile\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|solutionrelative:happy_tooth_mobile\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|c:\\users\\\u0445\u043E\u0440\u043E\u043C\u0438\\desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\happy_tooth_mobile\\happy_tooth_mobile\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|solutionrelative:happy_tooth_mobile\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|c:\\users\\\u0445\u043E\u0440\u043E\u043C\u0438\\desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\happy_tooth_mobile\\happy_tooth_mobile\\historypage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|solutionrelative:happy_tooth_mobile\\historypage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|c:\\users\\\u0445\u043E\u0440\u043E\u043C\u0438\\desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\happy_tooth_mobile\\happy_tooth_mobile\\historypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|solutionrelative:happy_tooth_mobile\\historypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|c:\\users\\\u0445\u043E\u0440\u043E\u043C\u0438\\desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\happy_tooth_mobile\\happy_tooth_mobile\\newappointmentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|solutionrelative:happy_tooth_mobile\\newappointmentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|c:\\users\\\u0445\u043E\u0440\u043E\u043C\u0438\\desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\happy_tooth_mobile\\happy_tooth_mobile\\newappointmentpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|solutionrelative:happy_tooth_mobile\\newappointmentpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|c:\\users\\\u0445\u043E\u0440\u043E\u043C\u0438\\desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\happy_tooth_mobile\\happy_tooth_mobile\\registrationpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|solutionrelative:happy_tooth_mobile\\registrationpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|c:\\users\\\u0445\u043E\u0440\u043E\u043C\u0438\\desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\happy_tooth_mobile\\happy_tooth_mobile\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|solutionrelative:happy_tooth_mobile\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|c:\\users\\\u0445\u043E\u0440\u043E\u043C\u0438\\desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\happy_tooth_mobile\\happy_tooth_mobile\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|solutionrelative:happy_tooth_mobile\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|c:\\users\\\u0445\u043E\u0440\u043E\u043C\u0438\\desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\happy_tooth_mobile\\happy_tooth_mobile\\appointmentspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|solutionrelative:happy_tooth_mobile\\appointmentspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|c:\\users\\\u0445\u043E\u0440\u043E\u043C\u0438\\desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\happy_tooth_mobile\\happy_tooth_mobile\\appointmentspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|solutionrelative:happy_tooth_mobile\\appointmentspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|c:\\users\\\u0445\u043E\u0440\u043E\u043C\u0438\\desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\happy_tooth_mobile\\happy_tooth_mobile\\profilepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{3C8A312F-022D-4209-ABA0-5A81FDF67770}|Happy_tooth_Mobile\\Happy_tooth_Mobile.csproj|solutionrelative:happy_tooth_mobile\\profilepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 209,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TabbedPage1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\TabbedPage1.xaml.cs",
+              "RelativeDocumentMoniker": "Happy_tooth_Mobile\\TabbedPage1.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\TabbedPage1.xaml.cs",
+              "RelativeToolTip": "Happy_tooth_Mobile\\TabbedPage1.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T12:22:49.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NewAppointmentPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\NewAppointmentPage.xaml.cs",
+              "RelativeDocumentMoniker": "Happy_tooth_Mobile\\NewAppointmentPage.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\NewAppointmentPage.xaml.cs",
+              "RelativeToolTip": "Happy_tooth_Mobile\\NewAppointmentPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T12:21:20.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NewAppointmentPage.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\NewAppointmentPage.xaml",
+              "RelativeDocumentMoniker": "Happy_tooth_Mobile\\NewAppointmentPage.xaml",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\NewAppointmentPage.xaml",
+              "RelativeToolTip": "Happy_tooth_Mobile\\NewAppointmentPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-31T12:21:08.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppointmentsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\AppointmentsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Happy_tooth_Mobile\\AppointmentsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\AppointmentsPage.xaml.cs",
+              "RelativeToolTip": "Happy_tooth_Mobile\\AppointmentsPage.xaml.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwCkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T12:18:21.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppointmentsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\AppointmentsPage.xaml",
+              "RelativeDocumentMoniker": "Happy_tooth_Mobile\\AppointmentsPage.xaml",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\AppointmentsPage.xaml",
+              "RelativeToolTip": "Happy_tooth_Mobile\\AppointmentsPage.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-31T12:18:20.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HistoryPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\HistoryPage.xaml.cs",
+              "RelativeDocumentMoniker": "Happy_tooth_Mobile\\HistoryPage.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\HistoryPage.xaml.cs",
+              "RelativeToolTip": "Happy_tooth_Mobile\\HistoryPage.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAowBsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T12:17:37.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HistoryPage.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\HistoryPage.xaml",
+              "RelativeDocumentMoniker": "Happy_tooth_Mobile\\HistoryPage.xaml",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\HistoryPage.xaml",
+              "RelativeToolTip": "Happy_tooth_Mobile\\HistoryPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-31T12:17:37.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProfilePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\ProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "Happy_tooth_Mobile\\ProfilePage.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\ProfilePage.xaml.cs",
+              "RelativeToolTip": "Happy_tooth_Mobile\\ProfilePage.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T12:16:19.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProfilePage.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\ProfilePage.xaml",
+              "RelativeDocumentMoniker": "Happy_tooth_Mobile\\ProfilePage.xaml",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\ProfilePage.xaml",
+              "RelativeToolTip": "Happy_tooth_Mobile\\ProfilePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-31T12:16:18.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Happy_tooth_Mobile\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\App.xaml.cs",
+              "RelativeToolTip": "Happy_tooth_Mobile\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T12:04:41.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TabbedPage1.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\TabbedPage1.xaml",
+              "RelativeDocumentMoniker": "Happy_tooth_Mobile\\TabbedPage1.xaml",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\TabbedPage1.xaml",
+              "RelativeToolTip": "Happy_tooth_Mobile\\TabbedPage1.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-31T12:02:55.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegistrationPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\RegistrationPage.xaml.cs",
+              "RelativeDocumentMoniker": "Happy_tooth_Mobile\\RegistrationPage.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\RegistrationPage.xaml.cs",
+              "RelativeToolTip": "Happy_tooth_Mobile\\RegistrationPage.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T12:06:34.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegistrationPage.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\RegistrationPage.xaml",
+              "RelativeDocumentMoniker": "Happy_tooth_Mobile\\RegistrationPage.xaml",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\RegistrationPage.xaml",
+              "RelativeToolTip": "Happy_tooth_Mobile\\RegistrationPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-31T12:02:28.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Happy_tooth_Mobile\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\MainPage.xaml.cs",
+              "RelativeToolTip": "Happy_tooth_Mobile\\MainPage.xaml.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAUwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T12:01:35.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Happy_tooth_Mobile\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\MainPage.xaml",
+              "RelativeToolTip": "Happy_tooth_Mobile\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-31T12:00:32.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "Happy_tooth_Mobile\\DatabaseContext.cs",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_tooth_Mobile\\Happy_tooth_Mobile\\DatabaseContext.cs",
+              "RelativeToolTip": "Happy_tooth_Mobile\\DatabaseContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T11:35:57.314Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 209,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

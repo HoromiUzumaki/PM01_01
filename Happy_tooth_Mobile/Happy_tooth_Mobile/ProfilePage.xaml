@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Happy_tooth_Mobile.ProfilePage" Title="Профиль">
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="15">
+            <Label Text="ФИО:" FontAttributes="Bold" />
+            <Entry x:Name="fullNameEntry" Text="{Binding FullName}" />
+
+            <Label Text="Телефон:" FontAttributes="Bold" />
+            <Entry x:Name="phoneEntry" Text="{Binding Phone}" Keyboard="Telephone" />
+
+            <Label Text="Email:" FontAttributes="Bold" />
+            <Entry x:Name="emailEntry" Text="{Binding Email}" Keyboard="Email" />
+
+            <Label Text="Дата рождения:" FontAttributes="Bold" />
+            <DatePicker x:Name="birthDatePicker" Date="{Binding BirthDate}" Format="dd.MM.yyyy" />
+
+            <Button Text="Сохранить" Clicked="OnSaveClicked" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

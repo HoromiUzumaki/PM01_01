@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Happy_tooth_Mobile.NewAppointmentPage" Title="Новая запись">
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="15">
+            <Picker x:Name="doctorPicker" Title="Выберите врача" 
+                    ItemDisplayBinding="{Binding FullName}" />
+            <DatePicker x:Name="datePicker" MinimumDate="{Binding Today}" />
+            <Picker x:Name="timeSlotPicker" Title="Выберите время" />
+            <Button Text="Найти доступное время" Clicked="OnFindTimeClicked" />
+            <Button Text="Записаться" Clicked="OnBookAppointmentClicked" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
