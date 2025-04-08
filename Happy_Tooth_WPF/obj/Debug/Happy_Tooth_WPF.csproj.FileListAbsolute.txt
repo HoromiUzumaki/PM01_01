@@ -1,0 +1,116 @@
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\Happy_Tooth_WPF.csproj.AssemblyReference.cache
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\MenuWindow.g.cs
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\App.g.cs
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\Happy_Tooth_WPF_Content.g.cs
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\Happy_Tooth_WPF_MarkupCompile.cache
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\Happy_Tooth_WPF_MarkupCompile.lref
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\DoctorsPage.g.cs
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\PatientsPage.g.cs
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\ProfilePage.g.cs
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\ReportsPage.g.cs
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\bin\Debug\Happy_Tooth_WPF.exe.config
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\bin\Debug\Happy_Tooth_WPF.exe
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\bin\Debug\Happy_Tooth_WPF.pdb
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\bin\Debug\EntityFramework.dll
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\bin\Debug\EntityFramework.xml
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\App.baml
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\DoctorsPage.baml
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\MainWindow.baml
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\MenuWindow.baml
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\PatientsPage.baml
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\ProfilePage.baml
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\ReportsPage.baml
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\Happy_Tooth_WPF.g.resources
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\Happy_Tooth_WPF.Properties.Resources.resources
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\Happy_Tooth_WPF.csproj.GenerateResource.cache
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\Happy_Tooth_WPF.csproj.CoreCompileInputs.cache
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\Happy_To.B63274B3.Up2Date
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\Happy_Tooth_WPF.exe
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\Happy_Tooth_WPF.pdb
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\PatientEditDialog.g.cs
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\PatientEditDialog.baml
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\DoctorEditDialog.g.cs
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\DoctorScheduleWindow.g.cs
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\DoctorEditDialog.baml
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\obj\Debug\DoctorScheduleWindow.baml
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\bin\Debug\EPPlus.dll
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\bin\Debug\System.Buffers.dll
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\bin\Debug\System.Memory.dll
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\bin\Debug\EPPlus.xml
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\bin\Debug\System.Buffers.xml
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\bin\Debug\System.Memory.xml
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Хороми\Desktop\учебная практика\Happy_Tooth_WPF\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\Happy_Tooth_WPF.csproj.AssemblyReference.cache
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\AppointmentsPage.g.cs
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\DoctorEditDialog.g.cs
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\DoctorScheduleWindow.g.cs
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\DoctorsPage.g.cs
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\MenuWindow.g.cs
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\PatientEditDialog.g.cs
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\PatientsPage.g.cs
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\ProfilePage.g.cs
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\ReportsPage.g.cs
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\VisitsPage.g.cs
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\App.g.cs
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\Happy_Tooth_WPF_Content.g.cs
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\Happy_Tooth_WPF_MarkupCompile.cache
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\Happy_Tooth_WPF_MarkupCompile.lref
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\Happy_Tooth_WPF.exe
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\Happy_Tooth_WPF.pdb
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\bin\Debug\Happy_Tooth_WPF.exe.config
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\bin\Debug\Happy_Tooth_WPF.exe
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\bin\Debug\Happy_Tooth_WPF.pdb
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\bin\Debug\EntityFramework.dll
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\bin\Debug\EPPlus.dll
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\bin\Debug\System.Buffers.dll
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\bin\Debug\System.Memory.dll
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\bin\Debug\EntityFramework.xml
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\bin\Debug\EPPlus.xml
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\bin\Debug\System.Buffers.xml
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\bin\Debug\System.Memory.xml
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\App.baml
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\AppointmentsPage.baml
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\DoctorEditDialog.baml
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\DoctorScheduleWindow.baml
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\DoctorsPage.baml
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\MainWindow.baml
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\MenuWindow.baml
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\PatientEditDialog.baml
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\PatientsPage.baml
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\ProfilePage.baml
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\ReportsPage.baml
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\VisitsPage.baml
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\Happy_Tooth_WPF.g.resources
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\Happy_Tooth_WPF.Properties.Resources.resources
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\Happy_Tooth_WPF.csproj.GenerateResource.cache
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\Happy_Tooth_WPF.csproj.CoreCompileInputs.cache
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\Happy_To.B63274B3.Up2Date
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\ChangeStatusDialog.g.cs
+C:\Users\Хороми\Desktop\пр.практика\Happy_Tooth_WPF\obj\Debug\ChangeStatusDialog.baml

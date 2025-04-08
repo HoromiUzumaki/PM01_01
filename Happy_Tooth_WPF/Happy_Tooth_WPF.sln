@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Happy_Tooth_WPF", "Happy_Tooth_WPF.csproj", "{2E8F817C-41E1-498F-95E6-E1FFD333EA50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E8F817C-41E1-498F-95E6-E1FFD333EA50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E8F817C-41E1-498F-95E6-E1FFD333EA50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E8F817C-41E1-498F-95E6-E1FFD333EA50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E8F817C-41E1-498F-95E6-E1FFD333EA50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81B77F1D-B3EB-4BA7-BB09-834171D7350A}
+	EndGlobalSection
+EndGlobal

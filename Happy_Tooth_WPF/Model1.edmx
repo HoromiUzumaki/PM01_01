@@ -1,0 +1,601 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Хранилище HappyToothModel1" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="appointments">
+          <Key>
+            <PropertyRef Name="appointment_id" />
+          </Key>
+          <Property Name="appointment_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="patient_id" Type="int" Nullable="false" />
+          <Property Name="doctor_id" Type="int" Nullable="false" />
+          <Property Name="appointment_time" Type="datetime2" Precision="7" Nullable="false" />
+          <Property Name="status" Type="nvarchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <EntityType Name="doctor_schedule">
+          <Key>
+            <PropertyRef Name="schedule_id" />
+          </Key>
+          <Property Name="schedule_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="doctor_id" Type="int" Nullable="false" />
+          <Property Name="day_of_week" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="start_time" Type="time" Precision="7" Nullable="false" />
+          <Property Name="end_time" Type="time" Precision="7" Nullable="false" />
+        </EntityType>
+        <EntityType Name="doctors">
+          <Key>
+            <PropertyRef Name="doctor_id" />
+          </Key>
+          <Property Name="doctor_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="full_name" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="specialization" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="user_id" Type="int" />
+        </EntityType>
+        <EntityType Name="patients">
+          <Key>
+            <PropertyRef Name="patient_id" />
+          </Key>
+          <Property Name="patient_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="full_name" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="phone" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="email" Type="nvarchar" MaxLength="50" />
+          <Property Name="birth_date" Type="date" />
+          <Property Name="user_id" Type="int" />
+        </EntityType>
+        <EntityType Name="services">
+          <Key>
+            <PropertyRef Name="service_id" />
+          </Key>
+          <Property Name="service_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="price" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="users">
+          <Key>
+            <PropertyRef Name="user_id" />
+          </Key>
+          <Property Name="user_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="username" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="password_hash" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="role" Type="nvarchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <EntityType Name="visit_services">
+          <Key>
+            <PropertyRef Name="visit_id" />
+            <PropertyRef Name="service_id" />
+          </Key>
+          <Property Name="visit_id" Type="int" Nullable="false" />
+          <Property Name="service_id" Type="int" Nullable="false" />
+          <Property Name="quantity" Type="int" />
+        </EntityType>
+        <EntityType Name="visits">
+          <Key>
+            <PropertyRef Name="visit_id" />
+          </Key>
+          <Property Name="visit_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="appointment_id" Type="int" Nullable="false" />
+          <Property Name="diagnosis" Type="nvarchar(max)" />
+          <Property Name="treatment" Type="nvarchar(max)" />
+          <Property Name="total_price" Type="decimal" Precision="10" Scale="2" />
+        </EntityType>
+        <Association Name="FK__appointme__docto__30F848ED">
+          <End Role="doctors" Type="Self.doctors" Multiplicity="1" />
+          <End Role="appointments" Type="Self.appointments" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="doctors">
+              <PropertyRef Name="doctor_id" />
+            </Principal>
+            <Dependent Role="appointments">
+              <PropertyRef Name="doctor_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__appointme__patie__300424B4">
+          <End Role="patients" Type="Self.patients" Multiplicity="1" />
+          <End Role="appointments" Type="Self.appointments" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="patients">
+              <PropertyRef Name="patient_id" />
+            </Principal>
+            <Dependent Role="appointments">
+              <PropertyRef Name="patient_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__doctor_sc__docto__2A4B4B5E">
+          <End Role="doctors" Type="Self.doctors" Multiplicity="1" />
+          <End Role="doctor_schedule" Type="Self.doctor_schedule" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="doctors">
+              <PropertyRef Name="doctor_id" />
+            </Principal>
+            <Dependent Role="doctor_schedule">
+              <PropertyRef Name="doctor_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__visit_ser__servi__38996AB5">
+          <End Role="services" Type="Self.services" Multiplicity="1" />
+          <End Role="visit_services" Type="Self.visit_services" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="services">
+              <PropertyRef Name="service_id" />
+            </Principal>
+            <Dependent Role="visit_services">
+              <PropertyRef Name="service_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__visit_ser__visit__37A5467C">
+          <End Role="visits" Type="Self.visits" Multiplicity="1" />
+          <End Role="visit_services" Type="Self.visit_services" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="visits">
+              <PropertyRef Name="visit_id" />
+            </Principal>
+            <Dependent Role="visit_services">
+              <PropertyRef Name="visit_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__visits__appointm__33D4B598">
+          <End Role="appointments" Type="Self.appointments" Multiplicity="1" />
+          <End Role="visits" Type="Self.visits" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="appointments">
+              <PropertyRef Name="appointment_id" />
+            </Principal>
+            <Dependent Role="visits">
+              <PropertyRef Name="appointment_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_doctors_users">
+          <End Role="users" Type="Self.users" Multiplicity="0..1" />
+          <End Role="doctors" Type="Self.doctors" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="users">
+              <PropertyRef Name="user_id" />
+            </Principal>
+            <Dependent Role="doctors">
+              <PropertyRef Name="user_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_patients_users">
+          <End Role="users" Type="Self.users" Multiplicity="0..1" />
+          <End Role="patients" Type="Self.patients" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="users">
+              <PropertyRef Name="user_id" />
+            </Principal>
+            <Dependent Role="patients">
+              <PropertyRef Name="user_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Хранилище HappyToothModel1Container">
+          <EntitySet Name="appointments" EntityType="Self.appointments" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="doctor_schedule" EntityType="Self.doctor_schedule" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="doctors" EntityType="Self.doctors" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="patients" EntityType="Self.patients" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="services" EntityType="Self.services" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="visit_services" EntityType="Self.visit_services" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="visits" EntityType="Self.visits" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__appointme__docto__30F848ED" Association="Self.FK__appointme__docto__30F848ED">
+            <End Role="doctors" EntitySet="doctors" />
+            <End Role="appointments" EntitySet="appointments" />
+          </AssociationSet>
+          <AssociationSet Name="FK__appointme__patie__300424B4" Association="Self.FK__appointme__patie__300424B4">
+            <End Role="patients" EntitySet="patients" />
+            <End Role="appointments" EntitySet="appointments" />
+          </AssociationSet>
+          <AssociationSet Name="FK__doctor_sc__docto__2A4B4B5E" Association="Self.FK__doctor_sc__docto__2A4B4B5E">
+            <End Role="doctors" EntitySet="doctors" />
+            <End Role="doctor_schedule" EntitySet="doctor_schedule" />
+          </AssociationSet>
+          <AssociationSet Name="FK__visit_ser__servi__38996AB5" Association="Self.FK__visit_ser__servi__38996AB5">
+            <End Role="services" EntitySet="services" />
+            <End Role="visit_services" EntitySet="visit_services" />
+          </AssociationSet>
+          <AssociationSet Name="FK__visit_ser__visit__37A5467C" Association="Self.FK__visit_ser__visit__37A5467C">
+            <End Role="visits" EntitySet="visits" />
+            <End Role="visit_services" EntitySet="visit_services" />
+          </AssociationSet>
+          <AssociationSet Name="FK__visits__appointm__33D4B598" Association="Self.FK__visits__appointm__33D4B598">
+            <End Role="appointments" EntitySet="appointments" />
+            <End Role="visits" EntitySet="visits" />
+          </AssociationSet>
+          <AssociationSet Name="FK_doctors_users" Association="Self.FK_doctors_users">
+            <End Role="users" EntitySet="users" />
+            <End Role="doctors" EntitySet="doctors" />
+          </AssociationSet>
+          <AssociationSet Name="FK_patients_users" Association="Self.FK_patients_users">
+            <End Role="users" EntitySet="users" />
+            <End Role="patients" EntitySet="patients" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="HappyToothModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="appointments">
+          <Key>
+            <PropertyRef Name="appointment_id" />
+          </Key>
+          <Property Name="appointment_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="patient_id" Type="Int32" Nullable="false" />
+          <Property Name="doctor_id" Type="Int32" Nullable="false" />
+          <Property Name="appointment_time" Type="DateTime" Nullable="false" Precision="7" />
+          <Property Name="status" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="doctors" Relationship="Self.FK__appointme__docto__30F848ED" FromRole="appointments" ToRole="doctors" />
+          <NavigationProperty Name="patients" Relationship="Self.FK__appointme__patie__300424B4" FromRole="appointments" ToRole="patients" />
+          <NavigationProperty Name="visits" Relationship="Self.FK__visits__appointm__33D4B598" FromRole="appointments" ToRole="visits" />
+        </EntityType>
+        <EntityType Name="doctor_schedule">
+          <Key>
+            <PropertyRef Name="schedule_id" />
+          </Key>
+          <Property Name="schedule_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="doctor_id" Type="Int32" Nullable="false" />
+          <Property Name="day_of_week" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="start_time" Type="Time" Nullable="false" Precision="7" />
+          <Property Name="end_time" Type="Time" Nullable="false" Precision="7" />
+          <NavigationProperty Name="doctors" Relationship="Self.FK__doctor_sc__docto__2A4B4B5E" FromRole="doctor_schedule" ToRole="doctors" />
+        </EntityType>
+        <EntityType Name="doctors">
+          <Key>
+            <PropertyRef Name="doctor_id" />
+          </Key>
+          <Property Name="doctor_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="full_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="specialization" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="appointments" Relationship="Self.FK__appointme__docto__30F848ED" FromRole="doctors" ToRole="appointments" />
+          <NavigationProperty Name="doctor_schedule" Relationship="Self.FK__doctor_sc__docto__2A4B4B5E" FromRole="doctors" ToRole="doctor_schedule" />
+          <Property Name="user_id" Type="Int32" />
+          <NavigationProperty Name="users" Relationship="HappyToothModel1.FK_doctors_users" FromRole="doctors" ToRole="users" />
+        </EntityType>
+        <EntityType Name="patients">
+          <Key>
+            <PropertyRef Name="patient_id" />
+          </Key>
+          <Property Name="patient_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="full_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="birth_date" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="appointments" Relationship="Self.FK__appointme__patie__300424B4" FromRole="patients" ToRole="appointments" />
+          <Property Name="user_id" Type="Int32" />
+          <NavigationProperty Name="users" Relationship="HappyToothModel1.FK_patients_users" FromRole="patients" ToRole="users" />
+        </EntityType>
+        <EntityType Name="services">
+          <Key>
+            <PropertyRef Name="service_id" />
+          </Key>
+          <Property Name="service_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="price" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+          <NavigationProperty Name="visit_services" Relationship="Self.FK__visit_ser__servi__38996AB5" FromRole="services" ToRole="visit_services" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="users">
+          <Key>
+            <PropertyRef Name="user_id" />
+          </Key>
+          <Property Name="user_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="password_hash" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="role" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="doctors" Relationship="HappyToothModel1.FK_doctors_users" FromRole="users" ToRole="doctors" />
+          <NavigationProperty Name="patients" Relationship="HappyToothModel1.FK_patients_users" FromRole="users" ToRole="patients" />
+        </EntityType>
+        <EntityType Name="visit_services">
+          <Key>
+            <PropertyRef Name="visit_id" />
+            <PropertyRef Name="service_id" />
+          </Key>
+          <Property Name="visit_id" Type="Int32" Nullable="false" />
+          <Property Name="service_id" Type="Int32" Nullable="false" />
+          <Property Name="quantity" Type="Int32" />
+          <NavigationProperty Name="services" Relationship="Self.FK__visit_ser__servi__38996AB5" FromRole="visit_services" ToRole="services" />
+          <NavigationProperty Name="visits" Relationship="Self.FK__visit_ser__visit__37A5467C" FromRole="visit_services" ToRole="visits" />
+        </EntityType>
+        <EntityType Name="visits">
+          <Key>
+            <PropertyRef Name="visit_id" />
+          </Key>
+          <Property Name="visit_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="appointment_id" Type="Int32" Nullable="false" />
+          <Property Name="diagnosis" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="treatment" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="total_price" Type="Decimal" Precision="10" Scale="2" />
+          <NavigationProperty Name="appointments" Relationship="Self.FK__visits__appointm__33D4B598" FromRole="visits" ToRole="appointments" />
+          <NavigationProperty Name="visit_services" Relationship="Self.FK__visit_ser__visit__37A5467C" FromRole="visits" ToRole="visit_services" />
+        </EntityType>
+        <Association Name="FK__appointme__docto__30F848ED">
+          <End Role="doctors" Type="Self.doctors" Multiplicity="1" />
+          <End Role="appointments" Type="Self.appointments" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="doctors">
+              <PropertyRef Name="doctor_id" />
+            </Principal>
+            <Dependent Role="appointments">
+              <PropertyRef Name="doctor_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__appointme__patie__300424B4">
+          <End Role="patients" Type="Self.patients" Multiplicity="1" />
+          <End Role="appointments" Type="Self.appointments" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="patients">
+              <PropertyRef Name="patient_id" />
+            </Principal>
+            <Dependent Role="appointments">
+              <PropertyRef Name="patient_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__visits__appointm__33D4B598">
+          <End Role="appointments" Type="Self.appointments" Multiplicity="1" />
+          <End Role="visits" Type="Self.visits" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="appointments">
+              <PropertyRef Name="appointment_id" />
+            </Principal>
+            <Dependent Role="visits">
+              <PropertyRef Name="appointment_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__doctor_sc__docto__2A4B4B5E">
+          <End Role="doctors" Type="Self.doctors" Multiplicity="1" />
+          <End Role="doctor_schedule" Type="Self.doctor_schedule" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="doctors">
+              <PropertyRef Name="doctor_id" />
+            </Principal>
+            <Dependent Role="doctor_schedule">
+              <PropertyRef Name="doctor_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__visit_ser__servi__38996AB5">
+          <End Role="services" Type="Self.services" Multiplicity="1" />
+          <End Role="visit_services" Type="Self.visit_services" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="services">
+              <PropertyRef Name="service_id" />
+            </Principal>
+            <Dependent Role="visit_services">
+              <PropertyRef Name="service_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__visit_ser__visit__37A5467C">
+          <End Role="visits" Type="Self.visits" Multiplicity="1" />
+          <End Role="visit_services" Type="Self.visit_services" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="visits">
+              <PropertyRef Name="visit_id" />
+            </Principal>
+            <Dependent Role="visit_services">
+              <PropertyRef Name="visit_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="HappyToothEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="appointments" EntityType="Self.appointments" />
+          <EntitySet Name="doctor_schedule" EntityType="Self.doctor_schedule" />
+          <EntitySet Name="doctors" EntityType="Self.doctors" />
+          <EntitySet Name="patients" EntityType="Self.patients" />
+          <EntitySet Name="services" EntityType="Self.services" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+          <EntitySet Name="users" EntityType="Self.users" />
+          <EntitySet Name="visit_services" EntityType="Self.visit_services" />
+          <EntitySet Name="visits" EntityType="Self.visits" />
+          <AssociationSet Name="FK__appointme__docto__30F848ED" Association="Self.FK__appointme__docto__30F848ED">
+            <End Role="doctors" EntitySet="doctors" />
+            <End Role="appointments" EntitySet="appointments" />
+          </AssociationSet>
+          <AssociationSet Name="FK__appointme__patie__300424B4" Association="Self.FK__appointme__patie__300424B4">
+            <End Role="patients" EntitySet="patients" />
+            <End Role="appointments" EntitySet="appointments" />
+          </AssociationSet>
+          <AssociationSet Name="FK__visits__appointm__33D4B598" Association="Self.FK__visits__appointm__33D4B598">
+            <End Role="appointments" EntitySet="appointments" />
+            <End Role="visits" EntitySet="visits" />
+          </AssociationSet>
+          <AssociationSet Name="FK__doctor_sc__docto__2A4B4B5E" Association="Self.FK__doctor_sc__docto__2A4B4B5E">
+            <End Role="doctors" EntitySet="doctors" />
+            <End Role="doctor_schedule" EntitySet="doctor_schedule" />
+          </AssociationSet>
+          <AssociationSet Name="FK__visit_ser__servi__38996AB5" Association="Self.FK__visit_ser__servi__38996AB5">
+            <End Role="services" EntitySet="services" />
+            <End Role="visit_services" EntitySet="visit_services" />
+          </AssociationSet>
+          <AssociationSet Name="FK__visit_ser__visit__37A5467C" Association="Self.FK__visit_ser__visit__37A5467C">
+            <End Role="visits" EntitySet="visits" />
+            <End Role="visit_services" EntitySet="visit_services" />
+          </AssociationSet>
+          <AssociationSet Name="FK_doctors_users" Association="HappyToothModel1.FK_doctors_users">
+            <End Role="users" EntitySet="users" />
+            <End Role="doctors" EntitySet="doctors" />
+          </AssociationSet>
+          <AssociationSet Name="FK_patients_users" Association="HappyToothModel1.FK_patients_users">
+            <End Role="users" EntitySet="users" />
+            <End Role="patients" EntitySet="patients" />
+          </AssociationSet>
+        </EntityContainer>
+        <Association Name="FK_doctors_users">
+          <End Type="HappyToothModel1.users" Role="users" Multiplicity="0..1" />
+          <End Type="HappyToothModel1.doctors" Role="doctors" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="users">
+              <PropertyRef Name="user_id" />
+            </Principal>
+            <Dependent Role="doctors">
+              <PropertyRef Name="user_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_patients_users">
+          <End Type="HappyToothModel1.users" Role="users" Multiplicity="0..1" />
+          <End Type="HappyToothModel1.patients" Role="patients" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="users">
+              <PropertyRef Name="user_id" />
+            </Principal>
+            <Dependent Role="patients">
+              <PropertyRef Name="user_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище HappyToothModel1Container" CdmEntityContainer="HappyToothEntities">
+          <EntitySetMapping Name="appointments">
+            <EntityTypeMapping TypeName="HappyToothModel1.appointments">
+              <MappingFragment StoreEntitySet="appointments">
+                <ScalarProperty Name="appointment_id" ColumnName="appointment_id" />
+                <ScalarProperty Name="patient_id" ColumnName="patient_id" />
+                <ScalarProperty Name="doctor_id" ColumnName="doctor_id" />
+                <ScalarProperty Name="appointment_time" ColumnName="appointment_time" />
+                <ScalarProperty Name="status" ColumnName="status" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="doctor_schedule">
+            <EntityTypeMapping TypeName="HappyToothModel1.doctor_schedule">
+              <MappingFragment StoreEntitySet="doctor_schedule">
+                <ScalarProperty Name="schedule_id" ColumnName="schedule_id" />
+                <ScalarProperty Name="doctor_id" ColumnName="doctor_id" />
+                <ScalarProperty Name="day_of_week" ColumnName="day_of_week" />
+                <ScalarProperty Name="start_time" ColumnName="start_time" />
+                <ScalarProperty Name="end_time" ColumnName="end_time" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="doctors">
+            <EntityTypeMapping TypeName="HappyToothModel1.doctors">
+              <MappingFragment StoreEntitySet="doctors">
+                <ScalarProperty Name="user_id" ColumnName="user_id" />
+                <ScalarProperty Name="doctor_id" ColumnName="doctor_id" />
+                <ScalarProperty Name="full_name" ColumnName="full_name" />
+                <ScalarProperty Name="specialization" ColumnName="specialization" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="patients">
+            <EntityTypeMapping TypeName="HappyToothModel1.patients">
+              <MappingFragment StoreEntitySet="patients">
+                <ScalarProperty Name="user_id" ColumnName="user_id" />
+                <ScalarProperty Name="patient_id" ColumnName="patient_id" />
+                <ScalarProperty Name="full_name" ColumnName="full_name" />
+                <ScalarProperty Name="phone" ColumnName="phone" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="birth_date" ColumnName="birth_date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="services">
+            <EntityTypeMapping TypeName="HappyToothModel1.services">
+              <MappingFragment StoreEntitySet="services">
+                <ScalarProperty Name="service_id" ColumnName="service_id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="price" ColumnName="price" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="HappyToothModel1.sysdiagrams">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="users">
+            <EntityTypeMapping TypeName="HappyToothModel1.users">
+              <MappingFragment StoreEntitySet="users">
+                <ScalarProperty Name="user_id" ColumnName="user_id" />
+                <ScalarProperty Name="username" ColumnName="username" />
+                <ScalarProperty Name="password_hash" ColumnName="password_hash" />
+                <ScalarProperty Name="role" ColumnName="role" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="visit_services">
+            <EntityTypeMapping TypeName="HappyToothModel1.visit_services">
+              <MappingFragment StoreEntitySet="visit_services">
+                <ScalarProperty Name="visit_id" ColumnName="visit_id" />
+                <ScalarProperty Name="service_id" ColumnName="service_id" />
+                <ScalarProperty Name="quantity" ColumnName="quantity" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="visits">
+            <EntityTypeMapping TypeName="HappyToothModel1.visits">
+              <MappingFragment StoreEntitySet="visits">
+                <ScalarProperty Name="visit_id" ColumnName="visit_id" />
+                <ScalarProperty Name="appointment_id" ColumnName="appointment_id" />
+                <ScalarProperty Name="diagnosis" ColumnName="diagnosis" />
+                <ScalarProperty Name="treatment" ColumnName="treatment" />
+                <ScalarProperty Name="total_price" ColumnName="total_price" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

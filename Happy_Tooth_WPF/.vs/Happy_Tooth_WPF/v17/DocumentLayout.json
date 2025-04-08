@@ -1,0 +1,276 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\doctorschedulewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|solutionrelative:doctorschedulewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|c:\\users\\\u0445\u043E\u0440\u043E\u043C\u0438\\desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\happy_tooth_wpf\\menuwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|solutionrelative:menuwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|c:\\users\\\u0445\u043E\u0440\u043E\u043C\u0438\\desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\happy_tooth_wpf\\menuwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|solutionrelative:menuwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\appointmentspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|solutionrelative:appointmentspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\patientspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|solutionrelative:patientspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|c:\\users\\\u0445\u043E\u0440\u043E\u043C\u0438\\desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\happy_tooth_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|c:\\users\\\u0445\u043E\u0440\u043E\u043C\u0438\\desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\happy_tooth_wpf\\reportspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|solutionrelative:reportspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\changestatusdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|solutionrelative:changestatusdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\doctoreditdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|solutionrelative:doctoreditdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\doctorspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|solutionrelative:doctorspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\doctorschedulewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|solutionrelative:doctorschedulewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\changestatusdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|solutionrelative:changestatusdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\appointmentspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E8F817C-41E1-498F-95E6-E1FFD333EA50}|Happy_Tooth_WPF.csproj|solutionrelative:appointmentspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 209,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\MenuWindow.xaml",
+              "RelativeDocumentMoniker": "MenuWindow.xaml",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\MenuWindow.xaml",
+              "RelativeToolTip": "MenuWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-03T12:17:10.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\MenuWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MenuWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\MenuWindow.xaml.cs",
+              "RelativeToolTip": "MenuWindow.xaml.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAA8wDYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T12:06:57.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-03T11:15:21.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReportsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\ReportsPage.xaml.cs",
+              "RelativeDocumentMoniker": "ReportsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\ReportsPage.xaml.cs",
+              "RelativeToolTip": "ReportsPage.xaml.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:43:33.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PatientsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\PatientsPage.xaml.cs",
+              "RelativeDocumentMoniker": "PatientsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\PatientsPage.xaml.cs",
+              "RelativeToolTip": "PatientsPage.xaml.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:43:21.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DoctorScheduleWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\DoctorScheduleWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DoctorScheduleWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\DoctorScheduleWindow.xaml.cs",
+              "RelativeToolTip": "DoctorScheduleWindow.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwCAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:43:06.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DoctorsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\DoctorsPage.xaml.cs",
+              "RelativeDocumentMoniker": "DoctorsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\DoctorsPage.xaml.cs",
+              "RelativeToolTip": "DoctorsPage.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:39:55.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:39:41.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DoctorEditDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\DoctorEditDialog.xaml.cs",
+              "RelativeDocumentMoniker": "DoctorEditDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\DoctorEditDialog.xaml.cs",
+              "RelativeToolTip": "DoctorEditDialog.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwBoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:33:39.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChangeStatusDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\ChangeStatusDialog.xaml.cs",
+              "RelativeDocumentMoniker": "ChangeStatusDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\ChangeStatusDialog.xaml.cs",
+              "RelativeToolTip": "ChangeStatusDialog.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T13:38:36.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-30T13:34:53.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ChangeStatusDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\ChangeStatusDialog.xaml",
+              "RelativeDocumentMoniker": "ChangeStatusDialog.xaml",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\ChangeStatusDialog.xaml",
+              "RelativeToolTip": "ChangeStatusDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-30T13:34:36.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppointmentsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\AppointmentsPage.xaml.cs",
+              "RelativeDocumentMoniker": "AppointmentsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\AppointmentsPage.xaml.cs",
+              "RelativeToolTip": "AppointmentsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T13:29:24.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DoctorScheduleWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\DoctorScheduleWindow.xaml",
+              "RelativeDocumentMoniker": "DoctorScheduleWindow.xaml",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\DoctorScheduleWindow.xaml",
+              "RelativeToolTip": "DoctorScheduleWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-28T12:28:21.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppointmentsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\AppointmentsPage.xaml",
+              "RelativeDocumentMoniker": "AppointmentsPage.xaml",
+              "ToolTip": "C:\\Users\\\u0425\u043E\u0440\u043E\u043C\u0438\\Desktop\\\u043F\u0440.\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Happy_Tooth_WPF\\AppointmentsPage.xaml",
+              "RelativeToolTip": "AppointmentsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-28T12:27:55.331Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 209,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище HappyToothModel1" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="appointments">
+    <Key>
+      <PropertyRef Name="appointment_id" />
+    </Key>
+    <Property Name="appointment_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="patient_id" Type="int" Nullable="false" />
+    <Property Name="doctor_id" Type="int" Nullable="false" />
+    <Property Name="appointment_time" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="status" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="doctor_schedule">
+    <Key>
+      <PropertyRef Name="schedule_id" />
+    </Key>
+    <Property Name="schedule_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="doctor_id" Type="int" Nullable="false" />
+    <Property Name="day_of_week" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="start_time" Type="time" Precision="7" Nullable="false" />
+    <Property Name="end_time" Type="time" Precision="7" Nullable="false" />
+  </EntityType>
+  <EntityType Name="doctors">
+    <Key>
+      <PropertyRef Name="doctor_id" />
+    </Key>
+    <Property Name="doctor_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="full_name" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="specialization" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="user_id" Type="int" />
+  </EntityType>
+  <EntityType Name="patients">
+    <Key>
+      <PropertyRef Name="patient_id" />
+    </Key>
+    <Property Name="patient_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="full_name" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="phone" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="birth_date" Type="date" />
+    <Property Name="user_id" Type="int" />
+  </EntityType>
+  <EntityType Name="services">
+    <Key>
+      <PropertyRef Name="service_id" />
+    </Key>
+    <Property Name="service_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="price" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="user_id" />
+    </Key>
+    <Property Name="user_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="password_hash" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="role" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="visit_services">
+    <Key>
+      <PropertyRef Name="visit_id" />
+      <PropertyRef Name="service_id" />
+    </Key>
+    <Property Name="visit_id" Type="int" Nullable="false" />
+    <Property Name="service_id" Type="int" Nullable="false" />
+    <Property Name="quantity" Type="int" />
+  </EntityType>
+  <EntityType Name="visits">
+    <Key>
+      <PropertyRef Name="visit_id" />
+    </Key>
+    <Property Name="visit_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="appointment_id" Type="int" Nullable="false" />
+    <Property Name="diagnosis" Type="nvarchar(max)" />
+    <Property Name="treatment" Type="nvarchar(max)" />
+    <Property Name="total_price" Type="decimal" Precision="10" Scale="2" />
+  </EntityType>
+  <Association Name="FK__appointme__docto__30F848ED">
+    <End Role="doctors" Type="Self.doctors" Multiplicity="1" />
+    <End Role="appointments" Type="Self.appointments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="doctors">
+        <PropertyRef Name="doctor_id" />
+      </Principal>
+      <Dependent Role="appointments">
+        <PropertyRef Name="doctor_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__appointme__patie__300424B4">
+    <End Role="patients" Type="Self.patients" Multiplicity="1" />
+    <End Role="appointments" Type="Self.appointments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="patients">
+        <PropertyRef Name="patient_id" />
+      </Principal>
+      <Dependent Role="appointments">
+        <PropertyRef Name="patient_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__doctor_sc__docto__2A4B4B5E">
+    <End Role="doctors" Type="Self.doctors" Multiplicity="1" />
+    <End Role="doctor_schedule" Type="Self.doctor_schedule" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="doctors">
+        <PropertyRef Name="doctor_id" />
+      </Principal>
+      <Dependent Role="doctor_schedule">
+        <PropertyRef Name="doctor_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__visit_ser__servi__38996AB5">
+    <End Role="services" Type="Self.services" Multiplicity="1" />
+    <End Role="visit_services" Type="Self.visit_services" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="services">
+        <PropertyRef Name="service_id" />
+      </Principal>
+      <Dependent Role="visit_services">
+        <PropertyRef Name="service_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__visit_ser__visit__37A5467C">
+    <End Role="visits" Type="Self.visits" Multiplicity="1" />
+    <End Role="visit_services" Type="Self.visit_services" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="visits">
+        <PropertyRef Name="visit_id" />
+      </Principal>
+      <Dependent Role="visit_services">
+        <PropertyRef Name="visit_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__visits__appointm__33D4B598">
+    <End Role="appointments" Type="Self.appointments" Multiplicity="1" />
+    <End Role="visits" Type="Self.visits" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="appointments">
+        <PropertyRef Name="appointment_id" />
+      </Principal>
+      <Dependent Role="visits">
+        <PropertyRef Name="appointment_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_doctors_users">
+    <End Role="users" Type="Self.users" Multiplicity="0..1" />
+    <End Role="doctors" Type="Self.doctors" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="users">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="doctors">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_patients_users">
+    <End Role="users" Type="Self.users" Multiplicity="0..1" />
+    <End Role="patients" Type="Self.patients" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="users">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="patients">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище HappyToothModel1Container">
+    <EntitySet Name="appointments" EntityType="Self.appointments" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="doctor_schedule" EntityType="Self.doctor_schedule" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="doctors" EntityType="Self.doctors" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="patients" EntityType="Self.patients" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="services" EntityType="Self.services" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="visit_services" EntityType="Self.visit_services" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="visits" EntityType="Self.visits" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__appointme__docto__30F848ED" Association="Self.FK__appointme__docto__30F848ED">
+      <End Role="doctors" EntitySet="doctors" />
+      <End Role="appointments" EntitySet="appointments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__appointme__patie__300424B4" Association="Self.FK__appointme__patie__300424B4">
+      <End Role="patients" EntitySet="patients" />
+      <End Role="appointments" EntitySet="appointments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__doctor_sc__docto__2A4B4B5E" Association="Self.FK__doctor_sc__docto__2A4B4B5E">
+      <End Role="doctors" EntitySet="doctors" />
+      <End Role="doctor_schedule" EntitySet="doctor_schedule" />
+    </AssociationSet>
+    <AssociationSet Name="FK__visit_ser__servi__38996AB5" Association="Self.FK__visit_ser__servi__38996AB5">
+      <End Role="services" EntitySet="services" />
+      <End Role="visit_services" EntitySet="visit_services" />
+    </AssociationSet>
+    <AssociationSet Name="FK__visit_ser__visit__37A5467C" Association="Self.FK__visit_ser__visit__37A5467C">
+      <End Role="visits" EntitySet="visits" />
+      <End Role="visit_services" EntitySet="visit_services" />
+    </AssociationSet>
+    <AssociationSet Name="FK__visits__appointm__33D4B598" Association="Self.FK__visits__appointm__33D4B598">
+      <End Role="appointments" EntitySet="appointments" />
+      <End Role="visits" EntitySet="visits" />
+    </AssociationSet>
+    <AssociationSet Name="FK_doctors_users" Association="Self.FK_doctors_users">
+      <End Role="users" EntitySet="users" />
+      <End Role="doctors" EntitySet="doctors" />
+    </AssociationSet>
+    <AssociationSet Name="FK_patients_users" Association="Self.FK_patients_users">
+      <End Role="users" EntitySet="users" />
+      <End Role="patients" EntitySet="patients" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
